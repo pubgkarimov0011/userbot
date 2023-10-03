@@ -2,8 +2,8 @@ from pyrogram import Client, filters, types,enums
 import requests
 import xml.etree.ElementTree as ET
 
-api_id = 27800474 #API_ID : https://my.telegram.org/
-api_hash = "b552d6ec4b114ec849a50351a85f3d77"
+api_id = 15170578 #API_ID : https://my.telegram.org/
+api_hash = "ae3a108e5e4ad8d63fb8ea9dd22b8523"
 
 app = Client("okuserbot", api_id, api_hash,parse_mode=enums.parse_mode.ParseMode.HTML)
 
